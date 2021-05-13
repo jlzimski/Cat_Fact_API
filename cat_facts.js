@@ -1,6 +1,6 @@
 let catFacts = document.querySelector('p');
 
-fetch('http://efa-cors-anywhere.herokuapp.com/https://cat-fact.herokuapp.com/facts')
+fetch('https://efa-cors-anywhere.herokuapp.com/https://cat-fact.herokuapp.com/facts')
 .then(function(response) {
     console.log(response);
     return response.json();
