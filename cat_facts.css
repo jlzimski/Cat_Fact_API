@@ -1,0 +1,67 @@
+*           { box-sizing: border-box;}
+
+body     { background-color: rgb(108, 113, 122);
+            background-image: radial-gradient(rgb(179, 189, 207),rgb(179, 189, 207),rgb(179, 189, 207), grey, rgb(59, 57, 57));
+            padding: 2px;
+            border: double 7px blueviolet;
+            
+            align-items: center;
+            margin-left: 75px;
+            margin-right: 75px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            min-width: 700px;}
+
+main        { border: solid 12px rgb(151, 238, 234);}
+
+#format     { background-image: url(cat_api_background.jpg);;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-size: cover;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 280px 280px;}
+
+h1          { color: blueviolet;
+            padding: .3em;
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            font-size: 2.5em;
+            text-shadow: 2px 1px 1px grey;
+            font-weight: bold;
+            border: double 9px;
+            border-radius: 15px 15px 15px 15px;
+            text-align: center;
+            background-color: rgb(100, 237, 230);
+            background-image: radial-gradient(#afeee3,#afeee3, rgba(100, 237, 230, 0.904));
+            margin-left: 1.3em;
+            margin-right: 1.5em;
+            margin-top: 1.3em;
+            max-height: 35%;
+            min-height: 130px;
+            display: flex;
+            align-items: center;
+            justify-content: center;}
+
+#data       { grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            flex: 5;
+            border: double 9px blueviolet;
+            border-radius: 15px 15px 15px 15px;
+            width: 90%;
+            float: left;
+            padding: .7em;
+            background-color: rgb(100, 237, 230);
+            background-image: radial-gradient(#afeee3,#afeee3, rgba(100, 237, 230, 0.904));
+            margin-bottom: 2em;
+            margin-left: 1.5em;
+            margin-right: 1.5em;
+            margin-top: .5em;
+            text-align: center;
+            color: blueviolet;
+            font-weight: bold;
+            font-size: 14px;
+            list-style-type: none;
+            text-shadow: 1px 1px 0px grey;
+            align-items: center;
+            justify-content: center;}
